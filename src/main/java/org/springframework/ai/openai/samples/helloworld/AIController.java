@@ -1,12 +1,20 @@
 package org.springframework.ai.openai.samples.helloworld;
 
 import org.springframework.ai.chat.client.ChatClient;
+<<<<<<< HEAD
+=======
+import org.springframework.web.bind.annotation.CrossOrigin;
+>>>>>>> fce5c41eddbf34750b48c14ade3f91d8cad5d09d
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
 
+<<<<<<< HEAD
+=======
+@CrossOrigin(origins = "*")
+>>>>>>> fce5c41eddbf34750b48c14ade3f91d8cad5d09d
 @RestController
 class AIController {
 	private final ChatClient chatClient;

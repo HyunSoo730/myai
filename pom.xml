@@ -53,6 +53,10 @@
 	</dependencies>
 
 	<build>
+<<<<<<< HEAD
+=======
+	<finalName>myai</finalName>
+>>>>>>> fce5c41eddbf34750b48c14ade3f91d8cad5d09d
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
